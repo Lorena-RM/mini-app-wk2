@@ -1,3 +1,25 @@
-body{
-    background-color: blanchedalmond;
+header{
+    text-align: center;
+}
+main{
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   justify-content: center;
+}
+
+section{
+    flex: 0 0 400px; 
+    border-style: dotted;
+}
+
+.box{
+    border-style: solid;
+    border-radius: 10%;
+    position: relative;
+    margin-top: -20px;
+}
+
+h2{
+
 }
